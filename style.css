@@ -267,6 +267,22 @@ html[data-theme="light"] #bgVideoLight { display: block; }
   max-width: 860px;
 }
 
+/* ---------- Copy Trading Performance Checker ---------- */
+.perf-check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin: 0 auto 22px;
+}
+.perf-title {
+  max-width: 640px;
+  text-align: center;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--txt-2);
+}
+
 /* ---------- Copy Trading Steps ---------- */
 .steps-head {
   display: flex;
